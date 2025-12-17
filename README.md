@@ -27,7 +27,7 @@ This repository contains source code and related files referenced in the book. T
 
 | Chapter | Title                                                                                          |
 |---------|------------------------------------------------------------------------------------------------|
-| 1       | [Understanding Computer Architecture](Chapter01/README.md)                                     |
+| 1       | [Introducing Computer Architecture](Chapter01/README.md)                                       |
 | 2       | [Digital Logic](Chapter02/README.md)                                                           |
 | 3       | [Processor Elements](Chapter03/README.md)                                                      |
 | 4       | [Computer System Components](Chapter04/README.md)                                              |
