@@ -9,7 +9,7 @@ In this formula, <i>k</i>, the index of the DCT coefficient, runs from 0 to <i>N
 
 Write a program to compute the DCT of the sequence <i>x</i>={0.5,0.2,0.7,-0.6,0.4,-0.2,1.0,-0.3}.
 
-The cosine terms in the formula depend only on the indices <i>n</i> and <i>k</i>, and do not depend on the input data sequence <i>x</i>. This means the cosine terms can be computed onece and stored as constants for later use. Using this approachas a preparatory step, the computation of each DCT coefficient reduces to a sequence of MAC operations.
+The cosine terms in the formula depend only on the indices <i>n</i> and <i>k</i>, and do not depend on the input data sequence <i>x</i>. This means the cosine terms can be computed once and stored as constants for later use. Using this approach as a preparatory step, the computation of each DCT coefficient reduces to a sequence of MAC operations.
 
 This formula represents the unoptimized form of the DCT computation, which requires <i>N<sup>2</sup></i> iterations of the MAC operation to compute all <i>N</i> DCT coefficients.
 
