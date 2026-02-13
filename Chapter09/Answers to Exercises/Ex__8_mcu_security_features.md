@@ -1,0 +1,13 @@
+__Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. Published by Packt Publishing.
+# Chapter 9, Exercise 8
+
+What security features do i.MX RT1060 processors support? 
+
+# Answer
+Chapter 7, _System Security_ in the reference manual describes the system security components. Some key features are:
+* Secure boot, enforcing digital signature verification of an encrypted code image.
+* Secure non-volatile storage for security-related information.
+* Hardware cryptographic coprocessor supporting the AES-128, SHA-1, and SHA-256 encryption algorithms.
+* True random number generator for creating secure cryptographic keys.
+* JTAG debug controller with password-enabled secure debug capability.
+* Memory interface supporting on-the-fly decryption of encrypted ROM instruction data.
