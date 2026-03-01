@@ -21,7 +21,7 @@ To run the code, assuming **Python** is installed and is in your path, execute t
 This is the output produced by the program:
 ```
 C:\>Ex__2_dct_formula.py
-Index       0       1       2       3       4       5       6       7
-x        0.5000  0.2000  0.7000 -0.6000  0.4000 -0.2000  1.0000 -0.3000
-DCT(x)   1.7000  0.4244  0.6374  0.4941 -1.2021  0.5732 -0.4936  2.3296
+Index     0     1     2     3     4     5     6     7
+x        0.50  0.20  0.70 -0.60  0.40 -0.20  1.00 -0.30
+DCT(x)   1.70  0.42  0.64  0.49 -1.20  0.57 -0.49  2.33
 ```
