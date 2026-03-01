@@ -3,66 +3,50 @@
 """Ex__3_row_column_major_order.py: Answer to Ch 7 Ex 3."""
 
 # Typical output from a run of this script:
-# Average row-major time   : 16.68 sec
-# Average column-major time: 15.94 sec
-# Average time difference  : 0.74 sec
-# Winner is column-major indexing; It is faster by 4.42%
+# Row-major time   : 1.976 seconds
+# Column-major time: 2.477 seconds
+# Row-major is faster by 20.25%
 
+import numpy as np
 import time
-  
-dim = 10000
-matrix = [[0] * dim] * dim
 
-num_passes = 10
-row_major_time = 0
-col_major_time = 0
+dim = 4000
+print(f"Creating {dim} x {dim} int32 matrix...")
+matrix = np.zeros((dim, dim), dtype=np.int32)
 
-for k in range(num_passes):
-    print('Pass %d of %d:' % (k+1, num_passes))
+# ----------------------------
+# Row-major traversal (faster)
+# ----------------------------
+t0 = time.perf_counter()
 
-    t0 = time.time()
+for i in range(dim):
+    for j in range(dim):
+        matrix[i, j] = i + j
+
+row_time = time.perf_counter() - t0
+print(f"Row-major time   : {row_time:.3f} seconds")
+
+# Clear the matrix
+matrix.fill(0)
+
+# -------------------------------
+# Column-major traversal (slower)
+# -------------------------------
+t0 = time.perf_counter()
+
+for j in range(dim):
     for i in range(dim):
-        for j in range(dim):
-            matrix[i][j] = i + j
+        matrix[i, j] = i + j
 
-    t1 = time.time()
+col_time = time.perf_counter() - t0
+print(f"Column-major time: {col_time:.3f} seconds")
 
-    total_time = t1 - t0
-    col_major_time = col_major_time + total_time
-    print('  Column-major time to fill array: %.2f sec' %
-          total_time)
-
-    t0 = time.time()
-    for i in range(dim):
-        for j in range(dim):
-            matrix[j][i] = i + j
-
-    t1 = time.time()
-
-    total_time = t1 - t0
-    row_major_time = row_major_time + total_time
-    print('  Row-major time to fill array: %.2f sec' %
-          total_time)
-    print('')
-    
-row_major_average = row_major_time / num_passes
-col_major_average = col_major_time / num_passes
-
-if (row_major_average < col_major_average):
-    winner = 'row'
-    pct_better = 100 * (col_major_average -
-        row_major_average) / col_major_average
+# -----------------------------
+# Report results
+# -----------------------------
+if row_time < col_time:
+    pct = 100 * (col_time - row_time) / col_time
+    print(f"Row-major is faster by {pct:.2f}%")
 else:
-    winner = 'column'
-    pct_better = 100 * (row_major_average -
-        col_major_average) / row_major_average
-
-print('Average row-major time   : %.2f sec' %
-      row_major_average)
-print('Average column-major time: %.2f sec' %
-      col_major_average)
-print('Average time difference  : %.2f sec' % (
-    (row_major_time-col_major_time) / num_passes))
-print(('Winner is ' + winner +
-    '-major indexing; It is faster by %.2f%%') %
-      pct_better)
+    pct = 100 * (row_time - col_time) / row_time
+    print(f"Column-major is faster by {pct:.2f}%")

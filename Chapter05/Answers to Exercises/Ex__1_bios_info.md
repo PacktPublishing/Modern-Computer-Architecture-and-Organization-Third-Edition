@@ -10,7 +10,7 @@ In Windows 11, you can enter the BIOS/UEFI settings by changing the startup opti
 1. When asked **Choose an option**, select **Troubleshoot**.
 1. In the **Troubleshoot** screen, select **Advanced options**.
 1. In the **Advanced options** screen, select **UEFI Firmware Settings**.
-1. The system will restart and display the UEFI configuration main screen. Use the left and right arrow keys on the keyboard to move between the screens.
+1. The system will restart and display the UEFI configuration main screen. Use the mouse or the left and right arrow keys on the keyboard to move between the screens.
 
 To answer the questions for a specific computer system (an Asus ZenBook UX303LA laptop in this example):
 * Although the messages displayed in the menus use the term "BIOS," mentions of "EFI applications" and its age indicate it is actually **UEFI**.
