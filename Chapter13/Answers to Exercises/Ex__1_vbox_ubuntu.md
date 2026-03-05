@@ -4,7 +4,7 @@ __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. P
 Download and install the current version of VirtualBox. Download, install, and bring up Ubuntu Linux as a virtual machine within VirtualBox. Connect the guest OS to the Internet using a bridged network adapter. Configure and enable clipboard sharing and file sharing between the Ubuntu guest and your host operating system.
 
 # Answer
-1. Download the VirtualBox 6.1 (or later version) installer from https://www.virtualbox.org/wiki/Downloads. Be sure to select the version appropriate for your host operating system.
+1. Download the VirtualBox installer from https://www.virtualbox.org/wiki/Downloads. Be sure to select the version appropriate for your host operating system.
 
 1. Run the VirtualBox installer and accept the default prompts.
 
