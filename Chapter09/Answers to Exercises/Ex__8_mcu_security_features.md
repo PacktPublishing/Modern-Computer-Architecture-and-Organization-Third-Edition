@@ -5,7 +5,7 @@ What security features do i.MX RT1060 processors support?
 
 # Answer
 Chapter 7, _System Security_ in the reference manual describes the system security components. Some key features are:
-* Secure boot, enforcing digital signature verification of an encrypted code image.
+* Secure Boot, enforcing digital signature verification of an encrypted code image.
 * Secure non-volatile storage for security-related information.
 * Hardware cryptographic coprocessor supporting the AES-128, SHA-1, and SHA-256 encryption algorithms.
 * True random number generator for creating secure cryptographic keys.

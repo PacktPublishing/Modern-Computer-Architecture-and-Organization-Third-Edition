@@ -6,7 +6,7 @@ Write an x86 assembly language program that computes the following expression an
 # Answer
 Create your assembly language source file. See [Ex__2_expr_x86.asm](Code%20Files/Ex__2_expr_x86.asm) for an example solution to this exercise.
  
-Open the **Developer Command Prompt for VS 2022** and change to the directory containing your source file.
+Open the **x86 Native Tools Command Prompt for VS** and change to the directory containing your source file.
 
 Build the executable with this command:
 ```

@@ -3,6 +3,8 @@ __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. P
 
 Using a programming language that allows access to the byte representation of floating-point data types (such as C or C++), write a function that accepts a 32-bit single-precision number as input. Extract the sign, exponent, and mantissa from the bytes of the floating-point value and display them. Remove the bias term from the exponent before displaying its value and display the mantissa as a decimal number.  Test the program with the values 0, -0, 1, -1, 6.674e-11, 1.0e38, 1.0e39, 1.0e-38, and 1.0e-39. The numeric values listed here containing _e_ are using the C/C++ text representation of floating-point numbers. For example, 6.674e-11 means 6.674 &times; 10<sup>-11</sup>.
 
+If you don't have programming tools that allow access to the byte representation of floating-point data types, you can use a free online C++ compiler such as [https://www.programiz.com/cpp-programming/online-compiler/](https://www.programiz.com/cpp-programming/online-compiler/)
+
 # Answer
 See the C++ file [Ex__1_float_format.cpp](Code%20Files/Ex__1_float_format.cpp).
 

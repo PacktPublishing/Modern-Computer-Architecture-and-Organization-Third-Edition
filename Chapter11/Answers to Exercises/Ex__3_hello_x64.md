@@ -1,7 +1,7 @@
 __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 11, Exercise 3
 
-In the Windows search box in the Task Bar, begin typing **x64 Native Tools Command Prompt for VS 2022**. When the app appears in the search menu, select it to open a command prompt.
+In the Windows search box in the Task Bar, begin typing **x64 Native Tools Command Prompt for VS**. When the app appears in the search menu, select it to open a command prompt.
 
 Create a file name **hello_x64.asm** with the content shown in the source listing in the **x64 assembly language** section of this chapter.
 
@@ -10,7 +10,7 @@ Build the program using the command shown in the **x64 assembly language** secti
 # Answer
 Create your assembly language source file. See [Ex__3_hello_x64.asm](Code%20Files/Ex__3_hello_x64.asm) for an example solution to this exercise.
  
-Open the **x64 Native Tools Command Prompt for VS 2022** and change to the directory containing your source file.
+Open the **x64 Native Tools Command Prompt for VS** and change to the directory containing your source file.
  
 Build the executable with this command:
 ```
