@@ -5,7 +5,7 @@ The fundamental capabilities of processor and memory architectures discussed in 
 
 Several performance-enhancing techniques are employed routinely in processor and system designs to achieve peak execution speed in real-world computer systems. These techniques do not alter the processor’s behavior in terms of code execution and data processing; they simply enable the system to complete tasks faster.
 
-After completing this chapter, you will understand the benefits of multilevel cache memory in computer architectures and the advantages and challenges associated with instruction pipelining. You’ll also understand the performance improvement resulting from simultaneous multithreading and the purpose and applications of single-instruction, multiple-data processing.
+After completing this chapter, you will understand the benefits of multilevel cache memory in computer architectures and the advantages and challenges associated with instruction pipelining. You’ll also understand the performance improvement resulting from simultaneous multithreading and the purpose and applications of single-instruction, multiple-data (SIMD) processing.
 
 The following topics will be covered in this chapter:
 
