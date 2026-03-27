@@ -5,15 +5,15 @@ __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. P
 
 ![RMS formula](Code%20Files/Ex__1_rms_scheduling1.png)
 
-This formula represents the maximum fraction of available processing time that <i>n</i> threads can consume. In this formula, <i>C<sub>i</sub></i> is the maximum execution time required for thread <i>i</i>, and <i>T<sub>i</sub></i> is the execution period of thread <i>i</i>.
+This formula represents the maximum fraction of available processing time that <i>n</i> threads can consume. In this formula, <i>C<sub>k</sub></i> is the maximum execution time required for thread <i>k</i>, and <i>T<sub>k</sub></i> is the execution period of thread <i>k</i>.
 
 Is the following system composed of three threads schedulable?
 
-Thread | Execution time (C<sub>i</sub>), ms | Execution period (T<sub>i</sub>), ms
------- | ------------------------ | --------------------------
-Thread 1 | 50 | 100
-Thread 2 | 100 | 500
-Thread 3 | 120 | 1000
+Thread | Execution time (C<sub>k</sub>), ms | Execution period (T<sub>k</sub>), ms
+------ |------------------------------------| --------------------------
+Thread 1 | 50                                 | 100
+Thread 2 | 100                                | 500
+Thread 3 | 120                                | 1000
 
 # Answer
 First, evaluate the left side of the RMS formula using the data from the table:
