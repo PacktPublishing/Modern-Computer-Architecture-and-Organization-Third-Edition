@@ -1,8 +1,10 @@
 __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. Published by Packt Publishing.
 # Chapter 5: Hardware-Software Interface
 
-TMost computer software is not written at the processor instruction level in assembly language. Almost all the applications we work with daily are written in one high-level programming language or another, relying on pre-existing libraries of capabilities that application programmers build upon during the software development process. Practical programming environments, comprising high-level languages and their associated libraries, provide numerous services such as disk **input/output (I/O)**, network communication, and user interaction, all of which are easily accessible from program code.
+Most computer software is not written at the processor instruction level in assembly language. Almost all the applications we work with daily are written in one high-level programming language or another, relying on pre-existing libraries of capabilities that application programmers build upon during the software development process. Practical programming environments, comprising high-level languages and their associated libraries, provide numerous services such as disk **input/output (I/O)**, network communication, and user interaction, all of which are easily accessible from program code.
+
 This chapter describes the software layers that implement these features, beginning with processor instructions within device drivers. This chapter covers several key aspects of operating systems, including booting, process scheduling, multithreading, and multiprocessing.
+
 After completing this chapter, you will understand the services provided by operating systems and the functions of the **Basic Input/Output System (BIOS)** and the **Unified Extensible Firmware Interface (UEFI)** firmware. You will have learned how threads of execution function at the processor level and how multiple processor cores coordinate within a computer system. You will also gain a broad understanding of the steps involved in securely booting an operating system, beginning with the first instruction executed.
 We will cover the following topics:
 
