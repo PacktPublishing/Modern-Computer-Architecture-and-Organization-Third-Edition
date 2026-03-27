@@ -3,6 +3,8 @@ __Modern Computer Architecture and Organization Third Edition__, by Jim Ledin. P
 
 This chapter introduces the exciting, comparatively new RISC-V (pronounced _risk five_) processor architecture and instruction set. RISC-V is an entirely open-source specification for a reduced instruction set processor. Complete user-mode (non-privileged) and privileged instruction set specifications have been released, and a wide variety of hardware implementations are available. The architecture includes specifications for several instruction set extensions that support general-purpose computing, high-performance computing, and embedded applications. Commercially available processors implement many of these extensions. Individual developers can build FPGA-based systems that include a RISC-V processor running the same code as a hardware version of the processor.
 
+After completing this chapter, you will understand the architecture and capabilities of the RISC-V processor and its optional extensions. You will have learned the basics of the RISC-V instruction set. You will understand how RISC-V can be tailored to support a variety of computer architectures, from tiny embedded systems to warehouse-scale cloud server datacenters. You will also understand how to implement a RISC-V processor in a low-cost FPGA board.
+
 The following topics will be covered in this chapter:
 * The RISC-V architecture and applications
 * The RISC-V base instruction set
@@ -12,8 +14,6 @@ The following topics will be covered in this chapter:
 * Standard RISC-V configurations
 * RISC-V assembly language
 * Implementing RISC-V in a **Field-Programmable Gate Array (FPGA)**
-
-After completing this chapter, you will understand the architecture and capabilities of the RISC-V processor and its optional extensions. You will have learned the basics of the RISC-V instruction set. You will understand how RISC-V can be tailored to support a variety of computer architectures, from tiny embedded systems to warehouse-scale cloud server datacenters. You will also understand how to implement a RISC-V processor in a low-cost FPGA board.
 
 # Chapter Files
 [hello_riscv.S](Chapter%20Files/hello_riscv.S) is the RISC-V **hello** assembly language program.
