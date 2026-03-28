@@ -25,24 +25,24 @@ _Jim Ledin_
 # Chapter Content
 This repository contains source code and related files referenced in the book. The content is organized by chapter and includes code examples and solutions to the end-of-chapter exercises.
 
-| Chapter | Title                                                                                          |
-|---------|------------------------------------------------------------------------------------------------|
-| 1       | [Introducing Computer Architecture](Chapter01/README.md)                                       |
-| 2       | [Digital Logic](Chapter02/README.md)                                                           |
-| 3       | [Processor Elements](Chapter03/README.md)                                                      |
-| 4       | [Computer System Components](Chapter04/README.md)                                              |
-| 5       | [Hardware-Software Interface](Chapter05/README.md)                                             |
-| 6       | [Specialized Computing Domains](Chapter06/README.md)                                           |
-| 7       | [Processor and Memory Architectures](Chapter07/README.md)                                      |
-| 8       | [Performance-Enhancing Techniques](Chapter08/README.md)                                        |
-| 9       | [Specialized Processor Extensions](Chapter09/README.md)                                        |
-| 10      | [Graphics Processing Units](Chapter10/README.md)                                               |
-| 11      | [Modern Processor Architectures and Instruction Sets](Chapter11/README.md)                     |
-| 12      | [The RISC-V Architecture and Instruction Set](Chapter12/README.md)                             |
-| 13      | [Processor Virtualization](Chapter13/README.md)                                                |
-| 14      | [Domain-Specific Computer Architectures](Chapter14/README.md)                                  |
-| 15      | [Large Language Model Computing Architectures](Chapter15/README.md)                            |
-| 16      | [Cybersecurity and Confidential Computing Architectures](Chapter16/README.md)                  |
-| 17      | [Blockchain and Bitcoin Mining Architectures](Chapter17/README.md)                             |
-| 18      | [Self-Driving Vehicle Architectures](Chapter18/README.md)                                      |
-| 19      | [Quantum Computing and Other Future Directions in Computer Architectures](Chapter19/README.md) |
+| Chapter | Title                                                                                           |
+|---------|-------------------------------------------------------------------------------------------------|
+| 1       | [Introducing Computer Architecture](Chapter01/README.md)                                        |
+| 2       | [Digital Logic](Chapter02/README.md)                                                            |
+| 3       | [Processor Elements](Chapter03/README.md)                                                       |
+| 4       | [Computer System Components](Chapter04/README.md)                                               |
+| 5       | [Hardware-Software Interface](Chapter05/README.md)                                              |
+| 6       | [Specialized Computing Domains](Chapter06/README.md)                                            |
+| 7       | [Processor and Memory Architectures](Chapter07/README.md)                                       |
+| 8       | [Performance-Enhancing Techniques](Chapter08/README.md)                                         |
+| 9       | [Specialized Processor Extensions](Chapter09/README.md)                                         |
+| 10      | [Graphics Processing Units](Chapter10/README.md)                                                |
+| 11      | [Modern Processor Architectures and Instruction Sets](Chapter11/README.md)                      |
+| 12      | [The RISC-V Architecture and Instruction Set](Chapter12/README.md)                              |
+| 13      | [Processor Virtualization](Chapter13/README.md)                                                 |
+| 14      | [Domain-Specific Computer Architectures](Chapter14/README.md)                                   |
+| 15      | [Large Language Model Computing Architectures](Chapter15/README.md)                             |
+| 16      | [Cybersecurity and Confidential Computing Architectures](Chapter16/README.md)                   |
+| 17      | [Blockchain and Bitcoin Mining Architectures](Chapter17/README.md)                              |
+| 18      | [Self-Driving Vehicle Architectures](Chapter18/README.md)                                       |
+| 19      | [Quantum Computing and Other Future Directions for Computer Architectures](Chapter19/README.md) |
