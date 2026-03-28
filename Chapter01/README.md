@@ -9,7 +9,9 @@ Today, numerous specialized computing architectures exist to address the diverse
 
 Companies offer web services to hundreds of millions of users from vast warehouses filled with thousands of tightly coordinated computer systems capable of responding to a constant stream of user requests with extraordinary speed and precision. Machine learning systems are trained through the analysis of enormous quantities of data to perform complex activities such as driving automobiles and chatting with users in a human-like manner.
 
-This chapter begins with a presentation of some key historical computing devices and the technological leaps associated with them. We then explore modern trends arising from these advances, introduce the fundamental concepts of computer architecture, and provide an overview of the 6502 microprocessor along with its instruction set. The following topics will be covered in this chapter:
+This chapter begins with a presentation of some key historical computing devices and the technological leaps associated with them. We then explore modern trends arising from these advances, introduce the fundamental concepts of computer architecture, and provide an overview of the 6502 microprocessor along with its instruction set.
+
+The following topics will be covered in this chapter:
 
 * The evolution of automated computing devices  
 * Moore’s law
